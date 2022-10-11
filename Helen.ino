@@ -16,14 +16,15 @@
 /*   -*- Include -*-
 /* * ------------------ * */
 #include <Ultrasonic.h>
+#include "buzzerSound.h"
 /* * ------------------ * */
 
 /*   -*- Pins -*-
 /* * -------------------- * */
-const char triggerPin   = 3;
-const char echoPin      = 4;
-const char vibrationPin = 10;
-const char buzzerPin    = 9;
+const char triggerPin   {3};
+const char echoPin      {4};
+const char vibrationPin {10};
+const char buzzerPin    {9};
 /* * -------------------- * */
 
 /*   -*- Constants -*-
@@ -32,7 +33,7 @@ const char buzzerPin    = 9;
  * Change based in your needs.
  *  
 /* * --------------------------------- * */
-const byte Distance = 100;
+const char Distance {100};
 /* * --------------------------------- * */
 
 
@@ -40,11 +41,14 @@ void setup() {
   pinMode(vibrationPin, OUTPUT);
   pinMode(buzzerPin, OUTPUT);
   Serial.begin(9600);
-
-  Serial.println(Distance);
+  Serial.println("The monitor serial is only to see if the components is working correctly");
+  Serial.println("else this don't have anything more to see here.");
   delay(1000);
 }
 
 void loop() {
-	
+	if ( Distance == 100 ) {
+    Serial.println("Oh no, an error has occured!");
+    warningBeep(buzzerPin, vibrationPin);
+	}
 }
