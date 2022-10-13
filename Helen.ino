@@ -13,6 +13,10 @@
  *
  */
 
+
+// ----- *X* ----- //
+
+
 /*   -*- Include -*-
 /* * ------------------ * */
 #include <Ultrasonic.h>
@@ -33,22 +37,43 @@ const char buzzerPin    {9};
  * Change based in your needs.
  *  
 /* * --------------------------------- * */
-const char Distance {100};
+const byte Distance     {100};
+const byte nearDistance {35};
+const bool foundSensor  {false};
 /* * --------------------------------- * */
 
 
+// ----- *X* ----- //
+
+
 void setup() {
+  
   pinMode(vibrationPin, OUTPUT);
   pinMode(buzzerPin, OUTPUT);
   Serial.begin(9600);
   Serial.println("The monitor serial is only to see if the components is working correctly");
   Serial.println("else this don't have anything more to see here.");
   delay(1000);
+  
 }
 
 void loop() {
-	if ( Distance == 100 ) {
+
+  float getDistance {0};
+  
+	if ( (Distance <= 100) or (not foundSensor) ) {
+  
     Serial.println("Oh no, an error has occured!");
     warningBeep(buzzerPin, vibrationPin);
+    
+	} else if ( getDistance <= Distance and getDistance > nearDistance ) {
+
+    // Slow beep
+    
+	} else if ( getDistance <= nearDistance ) {
+
+    fastBeep(buzzerPin, vibrationPin);
+  
 	}
+ 
 }

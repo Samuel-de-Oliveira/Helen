@@ -6,17 +6,32 @@
  * 
  */
 
+
+// ----- *X* ----- //
+
+
 void warningBeep( char buzzerPin, char vibrationPin ) {
   
   for ( byte i = 0; i < 3; ++i ) {
     tone(buzzerPin, 1024, 300);
     digitalWrite(vibrationPin, HIGH);
-    delay(100);
+    delay(90);
     noTone(buzzerPin);
     digitalWrite(vibrationPin, LOW);
-    delay(250);
+    delay(205);
   }
   
+  delay(250);
+  
+}
+
+void fastBeep( char buzzerPin, char vibrationPin ) {
+  
+  tone(buzzerPin, 1280, 300);
+  digitalWrite(vibrationPin, HIGH);
+  delay(200);
+  noTone(buzzerPin);
+  digitalWrite(vibrationPin, LOW);
   delay(250);
   
 }
