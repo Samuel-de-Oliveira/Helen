@@ -11,9 +11,9 @@ Look how this work in this small video:
 ### How to build this
 Please chose a tutorial language to start:
 
-- [English]();
-- [Français]();
-- [Português (Brasil)]().
+- [English](Tutorial/README.md);
+- [Français](Tutorial/LIT-MOI.md);
+- [Português (Brasil)](Tutorial/LEIA-ME-br.md).
 
 ### May I help?
 Sure! We accept any suggestion and bug fix, and we will place your name
