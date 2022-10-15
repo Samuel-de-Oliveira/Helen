@@ -50,8 +50,16 @@ Ultrasonic Sensor(triggerPin, echoPin);
 
 void setup() {
   
+  /*
+     Here is the buzzer and vibraton set.
+     To check or change all sounds and
+     vibration control, check the buzzerSound.h
+  */
   pinMode(vibrationPin, OUTPUT);
   pinMode(buzzerPin, OUTPUT);
+
+
+  // Begin Serial monitor and show a message.
   Serial.begin(9600);
   Serial.println("The monitor serial is only to see if the components is working correctly");
   Serial.println("else this don't have anything more to see here.");
