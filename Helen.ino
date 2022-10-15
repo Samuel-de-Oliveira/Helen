@@ -17,7 +17,7 @@
 // ----- *X* ----- //
 
 
-/*   -*- Include -*-
+/*   -*- Includes -*-
 /* * ------------------ * */
 #include <Ultrasonic.h>
 #include "buzzerSound.h"
@@ -25,8 +25,8 @@
 
 /*   -*- Pins -*-
 /* * -------------------- * */
-const char triggerPin   {3};
-const char echoPin      {4};
+const char triggerPin   {6};
+const char echoPin      {5};
 const char vibrationPin {10};
 const char buzzerPin    {9};
 /* * -------------------- * */
@@ -39,12 +39,14 @@ const char buzzerPin    {9};
 /* * --------------------------------- * */
 const byte Distance     {100};
 const byte nearDistance {35};
-const bool foundSensor  {false};
 /* * --------------------------------- * */
 
 
 // ----- *X* ----- //
 
+
+// Start the sensor
+Ultrasonic Sensor(triggerPin, echoPin);
 
 void setup() {
   
@@ -59,21 +61,12 @@ void setup() {
 
 void loop() {
 
-  float getDistance {0};
+  Serial.print(Sensor.read(CM));
+  Serial.print(" Cm, ");
   
-	if ( (Distance <= 100) or (not foundSensor) ) {
-  
-    Serial.println("Oh no, an error has occured!");
-    warningBeep(buzzerPin, vibrationPin);
-    
-	} else if ( getDistance <= Distance and getDistance > nearDistance ) {
+  Serial.print(Sensor.read(INC));
+  Serial.println("Inc.");
 
-    // Slow beep
-    
-	} else if ( getDistance <= nearDistance ) {
+  delay(75);
 
-    fastBeep(buzzerPin, vibrationPin);
-  
-	}
- 
 }
