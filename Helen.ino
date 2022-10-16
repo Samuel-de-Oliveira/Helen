@@ -35,8 +35,12 @@ const char buzzerPin    {9};
  *    
  * This is all the constants you can change.
  * Change based in your needs.
+ * 
+ * For more info about these constants:
+ * https://github.com/Samuel-de-Oliveira/Helen.
  *  
 /* * --------------------------------- * */
+const byte Measure      {CM};
 const byte Distance     {100};
 const byte nearDistance {35};
 /* * --------------------------------- * */
@@ -45,8 +49,10 @@ const byte nearDistance {35};
 // ----- *X* ----- //
 
 
-// Start the sensor
+/*   -*- Start the sensor -*-
+/* * -------------------------------- * */
 Ultrasonic Sensor(triggerPin, echoPin);
+/* * -------------------------------- * */
 
 void setup() {
   
@@ -59,22 +65,63 @@ void setup() {
   pinMode(buzzerPin, OUTPUT);
 
 
-  // Begin Serial monitor and show a message.
+  /*   -*- Begin Serial monitor and show a message -*-
+   * 
+   * Here will Only show the start message and
+   * nothing special than this.
+   *
+  /* * ------------------------------------------------------------------------------------- * */
   Serial.begin(9600);
   Serial.println("The monitor serial is only to see if the components is working correctly");
   Serial.println("else this don't have anything more to see here.");
   delay(1000);
+  /* * ------------------------------------------------------------------------------------- * */
   
 }
 
 void loop() {
 
+  /*   -*- Show the Distance (In centimetres and inches) -*-
+  /* * ------------------------ * */
   Serial.print(Sensor.read(CM));
   Serial.print(" Cm, ");
-  
   Serial.print(Sensor.read(INC));
   Serial.println("Inc.");
+  /* * ------------------------ * */
 
-  delay(100);
+  if ( Sensor.read(Measure) == 0 ) {
+
+    /*   -*- Show the error messase -*-
+     *    
+     * If the sensor is not working or is
+     * disconnected this message will be showed.   
+     *
+    /* * ---------------------------------------------------------------------------- * */
+    Serial.println("Oh no, something went wrong!");
+    Serial.println("Please check this link: https://github.com/Samuel-de-Oliveira/Helen")
+    Serial.println("For more info about this error.")
+    
+    warningBeep(buzzerPin, vibrationPin);
+    /* * ---------------------------------------------------------------------------- * */
+    
+  } else if ( Sensor.read(Measure) <= nearDistance ) {
+
+    /*   -*- Fast beep -*-
+    /* * ------------------------------------------- * */
+    Serial.println("I've found something near me!");
+    fastBeep(buzzerPin, vibrationPin);
+    /* * ------------------------------------------- * */
+    
+  } else if ( Sensor.read(Measure) <= Distance ) {
+
+    /*   -*- Slow beep -*-
+    /* * ------------------------------------------- * */
+    Serial.println("I've found something distant me!");
+    slowBeep(buzzerPin, vibrationPin);
+    /* * ------------------------------------------- * */
+    
+  }
+  
+  delay(100); // Delay to easy read of Serial Monitor (this dont change so much of program speed).
 
 }
