@@ -75,6 +75,6 @@ void loop() {
   Serial.print(Sensor.read(INC));
   Serial.println("Inc.");
 
-  delay(75);
+  delay(100);
 
 }
