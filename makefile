@@ -1,4 +1,4 @@
-# Makefile to who use Sudar's Arduino Makefile
+# Arduino's makefile
 # Check https://github.com/Sudar/Arduino-Makefile for more info.
 
 ARDUINO_DIR    = /usr/share/arduino/
