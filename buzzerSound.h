@@ -29,10 +29,10 @@ void fastBeep( char buzzerPin, char vibrationPin ) {
   
   tone(buzzerPin, 1280, 300);
   digitalWrite(vibrationPin, HIGH);
-  delay(175);
+  delay(150);
   noTone(buzzerPin);
   digitalWrite(vibrationPin, LOW);
-  delay(175);
+  delay(150);
   
 }
 
@@ -44,5 +44,16 @@ void slowBeep( char buzzerPin, char vibrationPin ) {
   noTone(buzzerPin);
   digitalWrite(vibrationPin, LOW);
   delay(350);
+  
+}
+
+void verySlowBeep( char buzzerPin, char vibrationPin ) {
+
+  tone(buzzerPin, 1280, 300);
+  digitalWrite(vibrationPin, HIGH);
+  delay(450);
+  noTone(buzzerPin);
+  digitalWrite(vibrationPin, LOW);
+  delay(450);
   
 }
