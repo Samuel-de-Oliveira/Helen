@@ -41,7 +41,8 @@ const char buzzerPin    {9};
  *  
 /* * --------------------------------- * */
 const byte Measure      {CM};
-const byte Distance     {100};
+const byte farDistance  {125};
+const byte Distance     {90};
 const byte nearDistance {35};
 /* * --------------------------------- * */
 
@@ -98,8 +99,8 @@ void loop() {
      *
     /* * ---------------------------------------------------------------------------- * */
     Serial.println("Oh no, something went wrong!");
-    Serial.println("Please check this link: https://github.com/Samuel-de-Oliveira/Helen")
-    Serial.println("For more info about this error.")
+    Serial.println("Please check this link: https://github.com/Samuel-de-Oliveira/Helen");
+    Serial.println("For more info about this error.");
     
     warningBeep(buzzerPin, vibrationPin);
     /* * ---------------------------------------------------------------------------- * */
@@ -118,6 +119,14 @@ void loop() {
     /* * ------------------------------------------- * */
     Serial.println("I've found something distant me!");
     slowBeep(buzzerPin, vibrationPin);
+    /* * ------------------------------------------- * */
+    
+  } else if ( Sensor.read(Measure) <= farDistance ) {
+
+    /*   -*- Very slow beep -*-
+    /* * ------------------------------------------- * */
+    Serial.println("I've found something very distant me!");
+    verySlowBeep(buzzerPin, vibrationPin);
     /* * ------------------------------------------- * */
     
   }
