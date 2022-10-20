@@ -41,8 +41,8 @@ const char buzzerPin    {9};
  *  
 /* * --------------------------------- * */
 const byte Measure      {CM};
-const byte farDistance  {125};
-const byte Distance     {90};
+const byte farDistance  {90};
+const byte Distance     {75};
 const byte nearDistance {35};
 /* * --------------------------------- * */
 
