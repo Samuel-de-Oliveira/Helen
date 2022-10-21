@@ -13,7 +13,7 @@
 void warningBeep( char buzzerPin, char vibrationPin ) {
   
   for ( byte i = 0; i < 3; ++i ) {
-    tone(buzzerPin, 756, 300);
+    tone(buzzerPin, 700, 300);
     digitalWrite(vibrationPin, HIGH);
     delay(90);
     noTone(buzzerPin);
