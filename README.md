@@ -20,6 +20,8 @@ Sure! We accept any suggestion and bug fix, and we will place your name
 in project contribuitors. Don't be shy, you can help so many people with
 your idea!
 
+You can give suggestions on the [Discussions](https://github.com/Samuel-de-Oliveira/Helen/discussions) place.
+
 ### What we want for the future?
 For while nothing.
 
