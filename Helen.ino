@@ -81,8 +81,6 @@ void setup() {
 }
 
 void loop() {
-
-  float acuratedMeasure {Sensor.read(Measure)};
   
   /*   -*- Show the Distance (In centimetres and inches) -*-
   /* * ------------------------ * */
