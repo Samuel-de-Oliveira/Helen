@@ -9,7 +9,7 @@
 
 // ----- *X* ----- //
 
-
+// Warning beep
 void warningBeep( char buzzerPin, char vibrationPin ) {
   
   for ( byte i = 0; i < 3; ++i ) {
@@ -25,6 +25,7 @@ void warningBeep( char buzzerPin, char vibrationPin ) {
   
 }
 
+// Fast beep
 void fastBeep( char buzzerPin, char vibrationPin ) {
   
   tone(buzzerPin, 1100, 300);
@@ -36,6 +37,7 @@ void fastBeep( char buzzerPin, char vibrationPin ) {
   
 }
 
+// Slow beep
 void slowBeep( char buzzerPin, char vibrationPin ) {
   
   tone(buzzerPin, 1100, 300);
@@ -47,6 +49,7 @@ void slowBeep( char buzzerPin, char vibrationPin ) {
   
 }
 
+// Very slow beep
 void verySlowBeep( char buzzerPin, char vibrationPin ) {
 
   tone(buzzerPin, 1100, 300);

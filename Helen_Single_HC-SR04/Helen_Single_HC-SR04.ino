@@ -1,5 +1,9 @@
 /*   -*- Helen Souce code -*-
  *
+ * The project type is "Single HC-SR04", the
+ * we recomend you read the tutorial in official
+ * repository after upload the code.
+ *
  * This is the source code of Helen project
  * you are free to edit anything in this code.
  *
@@ -7,6 +11,7 @@
  * the code, please read the comments to avoid
  * errors.
  *
+ * Repository:    https://github.com/Samuel-de-Oliveira/Helen
  * License:       MIT
  * Created by:    Samuel de Oliveira (Github: Samuel-de-Oliveira)
  * Contribuitors: Nobody
@@ -61,6 +66,10 @@ void setup() {
      Here is the buzzer and vibraton set.
      To check or change all sounds and
      vibration control, check the buzzerSound.h
+
+     NOTE: Some beeps should be annoying, so if
+     don't like the sound you can change in
+     buzzerSound file.
   */
   pinMode(vibrationPin, OUTPUT);
   pinMode(buzzerPin, OUTPUT);
@@ -87,7 +96,7 @@ void loop() {
   Serial.print(Sensor.read(CM));
   Serial.print(" Cm, ");
   Serial.print(Sensor.read(INC));
-  Serial.println("Inc.");
+  Serial.println(" Inc.");
   /* * ------------------------ * */
 
   if ( Sensor.read(Measure) == 0 ) {
