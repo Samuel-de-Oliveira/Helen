@@ -82,6 +82,8 @@ void setup() {
 
 void loop() {
 
+  float acuratedMeasure {Sensor.read(Measure)};
+  
   /*   -*- Show the Distance (In centimetres and inches) -*-
   /* * ------------------------ * */
   Serial.print(Sensor.read(CM));
@@ -130,7 +132,5 @@ void loop() {
     /* * ------------------------------------------- * */
     
   }
-  
-  delay(100); // Delay to easy read of Serial Monitor (this dont change so much of program speed).
 
 }
