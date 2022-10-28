@@ -26,6 +26,7 @@
 /* * ------------------ * */
 #include <Ultrasonic.h>
 #include "buzzerSound.h"
+#include "tools.h"
 /* * ------------------ * */
 
 /*   -*- Pins -*-
@@ -90,14 +91,14 @@ void setup() {
 }
 
 void loop() {
-  
-  /*   -*- Show the Distance (In centimetres and inches) -*-
-  /* * ------------------------ * */
-  Serial.print(Sensor.read(CM));
-  Serial.print(" Cm, ");
-  Serial.print(Sensor.read(INC));
-  Serial.println(" Inc.");
-  /* * ------------------------ * */
+
+  /*
+   *  The code is very simple. The "Sentor.read" check the
+   *  distance based in the measure you've seted before.
+   *  
+   *  And will comparate the distance of Sensor.read with
+   *  "farDistance", "Distance" and "nearDistance".
+   */
 
   if ( Sensor.read(Measure) == 0 ) {
 
@@ -118,6 +119,7 @@ void loop() {
 
     /*   -*- Fast beep -*-
     /* * ------------------------------------------- * */
+    showDistance(Sensor);
     Serial.println("I've found something near me!");
     fastBeep(buzzerPin, vibrationPin);
     /* * ------------------------------------------- * */
@@ -126,6 +128,7 @@ void loop() {
 
     /*   -*- Slow beep -*-
     /* * ------------------------------------------- * */
+    showDistance(Sensor);
     Serial.println("I've found something distant me!");
     slowBeep(buzzerPin, vibrationPin);
     /* * ------------------------------------------- * */
@@ -134,6 +137,7 @@ void loop() {
 
     /*   -*- Very slow beep -*-
     /* * ------------------------------------------- * */
+    showDistance(Sensor);
     Serial.println("I've found something very distant me!");
     verySlowBeep(buzzerPin, vibrationPin);
     /* * ------------------------------------------- * */
