@@ -1,6 +1,8 @@
 /*   -*- Tools -*-
  *  
  * Code of all tools here.
+ *
+ * Version: 1.0
  * 
  */
 

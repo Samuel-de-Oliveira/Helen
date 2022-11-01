@@ -15,6 +15,7 @@
  * License:       MIT
  * Created by:    Samuel de Oliveira (Github: Samuel-de-Oliveira)
  * Contribuitors: Nobody
+ * Version:       1.0
  *
  */
 
