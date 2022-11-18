@@ -9,7 +9,7 @@
 
 #### Purpose of this project:
 
-In this project an obstacle detection system will be built with Arduino. This system mainly uses an ultrasound sensor, buzzer, LCD and LED.
+In this project, an obstacle detection system will be built with Arduino. This system mainly uses an ultrasound sensor, buzzer, LCD, and LED.
 
 
 ![Systeme-detection_single](https://user-images.githubusercontent.com/79866006/202284373-69d73246-0a53-4ddf-9878-58993f6775a2.png)
@@ -23,11 +23,11 @@ In this project an obstacle detection system will be built with Arduino. This sy
    - buzzer
    - 1 resistance 220Ω
    - 1 red LED
-   - LCD display
+   - LCD
    - connecting wires
 
 
-#### Here's the steps of the project:
+#### Here are the steps of the project:
 
 **Step 1**
 
@@ -48,7 +48,7 @@ To make the assembly, we can connect :
 
 - TRIG pin to pin 2 of Arduino
 
-- Echo pin tp pin 3 of Arduino.
+- Echo pin to pin 3 of Arduino.
 
 - VCC pin to 3.3V of Arduino
 
@@ -69,7 +69,7 @@ To make the assembly, we can connect :
 
 
 
-**For the LCD display:**
+**For the LCD:**
 
 - the SDA pin at the Arduino analog pin A4.
 
@@ -95,7 +95,10 @@ To make the assembly, we can connect :
 
 **INFO**
 
-- feel free to open an issue. 
+- For the [HC-SR04 Code explanation](Helen_Single_HC-SR04/README.md)
+- For the [HC-SR05 Code explanation](Helen_Single_HC-SR05/README.md)
+- Feel free to open an issue.
+
 
 
 
