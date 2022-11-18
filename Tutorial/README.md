@@ -95,8 +95,8 @@ To make the assembly, we can connect :
 
 **INFO**
 
-- For the [HC-SR04 Code explanation](Helen_Single_HC-SR04/README.md)
-- For the [HC-SR05 Code explanation](Helen_Single_HC-SR05/README.md)
+- For the [HC-SR04 Code explanation](../Helen_Single_HC-SR04/)
+- For the [HC-SR05 Code explanation](../Helen_Single_HC-SR05/)
 - Feel free to open an issue.
 
 
