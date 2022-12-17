@@ -26,7 +26,7 @@ Please chose a tutorial language to start:
 
 - [English:us:](Tutorial/README.md);
 - [Français:fr:](Tutorial/LIT-MOI.md);
-- [Português (Brasil):brazil:](Tutorial/LEIA-ME-br.MD).
+- [Português (Brasil):brazil:](Tutorial/LEIA-ME-br.md).
 
 ### May I help?
 Sure! We accept any suggestions and bug fixes, and we will place your name
