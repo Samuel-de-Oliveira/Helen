@@ -1,9 +1,11 @@
 # The Helen project
 ### What is it?
-The Helen project is a equipment that help people with vision
-disabilities to detect things in them front with sounds or vibration.
-The project can be used in a cap, hat, t-shirt, hands or anything in
-the body. And it's totaly Open Source, it means that's more accessible
+The Helen project is equipment that helps people with vision
+disabilities and hearing disabilities to detect things in the front with sounds or vibrations,
+ it also displays the distance of the object on an LCD screen.
+
+The project can be used in a cap, hat, t-shirt, hands, or anything on
+the body. And it's Open Source, which means that's more accessible
 to anyone who wants the equipment, only just having a relative or friend
 create it with the materials they have.
 
@@ -11,32 +13,36 @@ Look how this work in this small video:
 
 - The video is on production :construction:
 
-This project have more than one version, here is all versions:
+This project has more than one version, here are all versions:
 
 - [Single HC-SR04](Helen_Single_HC-SR04/);
+- [Single HC-SR05](Helen_Single_HC-SR05/);
 - Two HC-SR04 (Coming soon).
+
+**Note** `HC-SR04` and `HC-SR05` work pretty similarly.
 
 ### How to build this
 Please chose a tutorial language to start:
 
-- [English :us:](Tutorial/README.md);
-- [Français :fr:](Tutorial/LIT-MOI.md);
-- [Português (Brasil) :brazil:](Tutorial/LEIA-ME-br.md).
+- [English:us:](Tutorial/README.md);
+- [Français:fr:](Tutorial/LIT-MOI.md);
+- [Português (Brasil):brazil:](Tutorial/LEIA-ME-br.MD).
 
 ### May I help?
-Sure! We accept any suggestion and bug fix, and we will place your name
-in project contribuitors. Don't be shy, you can help so many people with
+Sure! We accept any suggestions and bug fixes, and we will place your name
+in project contributors. Don't be shy, you can help so many people with
 your idea!
 
 You can give suggestions on the [Discussions](https://github.com/Samuel-de-Oliveira/Helen/discussions) place.
 
-### What we want for the future?
+### What do we want for the future?
 This place is for our projects for the future (Sometimes you can help us
-about this :smiley:).
+about this:smiley:).
 
-* [  ] Have contribuitors;
-* [  ] Create the 2 sensor version of project;
-* [  ] Test the single HC-SR04 project with blind people.
+* [ ] Have contributors;
+* [ ] Create the 2-sensor version of the project;
+* [ ] Test the single HC-SR04 project with blind people.
+* [ ] Test the single HC-SR04 project with deaf people.
 
-###### Crated by: Samuel de Oliveira (2022).
-###### Cantribuitors: Nobody yet.
+###### Created by: Samuel de Oliveira (2022).
+###### Contributors: Nobody yet.
