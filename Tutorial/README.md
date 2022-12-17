@@ -3,8 +3,6 @@
 ![images (2)](https://user-images.githubusercontent.com/79866006/202291842-49de0cd5-9b5f-4e2c-b7c1-fa2afbb1877f.jpeg)
 -->
 
-![hy-srf05](https://user-images.githubusercontent.com/79866006/202284973-ae37797c-75ab-4757-a99c-5f3d90743c5d.jpg)
-![HC-SR04](https://user-images.githubusercontent.com/79866006/202289839-8b436cc5-6e9d-43a3-a36a-cf6cdb86299f.jpg)
 
 
 #### Purpose of this project:

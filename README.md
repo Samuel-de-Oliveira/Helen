@@ -39,10 +39,10 @@ You can give suggestions on the [Discussions](https://github.com/Samuel-de-Olive
 This place is for our projects for the future (Sometimes you can help us
 about this:smiley:).
 
-* [ ] Have contributors;
+* [x] Have contributors;
 * [ ] Create the 2-sensor version of the project;
 * [ ] Test the single HC-SR04 project with blind people.
-* [ ] Test the single HC-SR04 project with deaf people.
+* [ ] Test the single HC-SR04 project with deaf blind people.
 
 ###### Created by: Samuel de Oliveira (2022).
-###### Contributors: Nobody yet.
+###### Contributors: Nemonet.
