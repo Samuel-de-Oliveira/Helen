@@ -1,18 +1,23 @@
-# Como contruir
+# Como construir seu proprio dispositivo Helen?
+Primeiramente deve-se deixar claro que o projeto possuis vários códigos distintos, isso porquê queremos que o projeto consiga se adaptar a qualquer tipo de sensor ou placa microcontroladora, deixando-a mais ascessivel a todo mundo.
 
-### Itens necessarios
+---
+### Por onde começar?
+Primeiro você deve saber qual é o projeto que você deseja construir baseado no sensor e na placa microcontroladora.
 
-#### Hardware
+Por exemplo, para se construir o projeto com o Arduino Uno/Nano Utilizando o sensor `HC-SR04` deve-se escolher a versão chamada `Helen_Single_HC-SR04`.
 
-| Materiais              | Especificações | Descrições |
-|:-----------------------|:---------------|:--------------------------:|
-| 1X Arduino             | Uno R3 ou Nano | A plataforma Arduino facilitará a utilização de microcontroladores. É recomendado utilizar as verções Uno R3 ou Nano devido a facilidade e o tamanho. |
-| 1X Buzzer              | 3.3V ou 5V     | Um pequeno emissor de som. |
-| 1X Capacitor           | 330 - 1000 µF  | (Opicional) Dará um pequeno efeito no som do buzzer. |
-| 1X Sensor Ultrassônico | HC-SR04        | Utilizado para medir distâncias |
+Caso esteja pensando em criar o projeto do zero (Você quer pesquisar os materiais nescessarios para faze-lo), basta escolher qualquer versão, pois em qualque uma delas haverá uma lista de materiais nescessários para sua construção. É recomendado por nós construir a versão `Helen_Single_HC-SR04`.
 
-#### Software
+---
+### Versões do projeto
+Basta clicar no projeto desejado e você será direcionado ao tutorial de construção do mesmo.
 
-| Programas | Descrição |
-|:----------|:---------:|
+##### Para Arduino UNO/Nano
+- [Helen Single HC-SR04](/Helen_Single_HC-SR04/LEIA-ME-br.md);
+- [Helen Single HC-SR05](/Helen_Single_HC-SR05/LEIA-ME-br.md).
 
+> <small>Mais Versões sairão em breve</small>
+
+---
+<small>**Translation by: @Samuel-de-Oliveira**</small>
