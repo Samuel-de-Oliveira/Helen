@@ -28,6 +28,7 @@ Abaixo temos a imagem do esquema feito no tinkercad, logo basta segui-lo como es
 <img src="https://www.redbytes.in/wp-content/uploads/2018/04/arduino-1-logo-png-transparent.png">
 
 > :information_source: Se você deseja utilizar o capacitor basta colocalo entre as porta `9` e o `gnd` do arduino e o terminal negativo e positivo do buzzer.
+
 > :information_source: Esse é osquema do projeto, a implementação dele, ou seja, se você quer fazer um boné adpatado ou ma pulsera fica ao seu criterio (Pode ser literalmente qualquer coisa que você quiser).
 
 ### Compilação e configuração do código
