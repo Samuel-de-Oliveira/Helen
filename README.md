@@ -1,13 +1,9 @@
 # The Helen project
 ### What is it?
 The Helen project is equipment that helps people with vision
-disabilities and hearing disabilities to detect things in the front with sounds or vibrations,
- it also displays the distance of the object on an LCD screen.
+disabilities, like: blindness, low vision and deaf blind, to detect solid things in them front using sounds or vibrations components.
 
-The project can be used in a cap, hat, t-shirt, hands, or anything on
-the body. And it's Open Source, which means that's more accessible
-to anyone who wants the equipment, only just having a relative or friend
-create it with the materials they have.
+The Helen is projected to work in anything, for example you can make a hat that have the project on it or yo can make a govel that show to a blind person if have a solid thing, so your imagination is your limit with this project.
 
 Look how this work in this small video:
 
@@ -15,11 +11,10 @@ Look how this work in this small video:
 
 This project has more than one version, here are all versions:
 
-- [Single HC-SR04](Helen_Single_HC-SR04/);
-- [Single HC-SR05](Helen_Single_HC-SR05/);
-- Two HC-SR04 (Coming soon).
+- Single HC-SR04;
+- Single HC-SR05.
 
-**Note** `HC-SR04` and `HC-SR05` work pretty similarly.
+> <small>More versions comming soon.</small>
 
 ### How to build this
 Please chose a tutorial language to start:
@@ -39,7 +34,10 @@ You can give suggestions on the [Discussions](https://github.com/Samuel-de-Olive
 This place is for our projects for the future (Sometimes you can help us
 about this:smiley:).
 
-* [x] Have contributors;
+##### **Done**
+* [x] Have contributors. **12/11/2022**
+
+##### **In progress**
 * [ ] Create the 2-sensor version of the project;
 * [ ] Test the single HC-SR04 project with blind people.
 * [ ] Test the single HC-SR04 project with deaf blind people.

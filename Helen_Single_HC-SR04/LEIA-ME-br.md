@@ -15,4 +15,7 @@
 
 | Programas | Descrição |
 |:----------|:---------:|
+| Arduino IDE | Será usado para editar e fazer o upload do código para dentro do arduino |
+| Arduino Makefile | (Opicional) Faz o upload do código fonte para o arduino utilizando o GNU Make `:warning: Imfelismento o projeto está parado desdes 2017, mas dá para utilizar em alguns sistemas` |
+| Código fonte do projeto | Para baixa-lo basta clicar [aqui]() e escolher a versão `Helen_HC_SR04.tar.gz` |
 
