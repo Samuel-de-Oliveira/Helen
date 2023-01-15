@@ -23,7 +23,7 @@ Please chose a tutorial language to start:
 - [Français:fr:](Tutorial/LIT-MOI.md);
 - [Português (Brasil):brazil:](Tutorial/LEIA-ME-br.md);
 - [Mandarin (China)🇨🇳](Tutorial/自述文件.md);
-- [Hanguk (South-Korea)🇰🇷](Tutorial/). 
+- [Hanguk (South-Korean)🇰🇷](Tutorial/읽어보기.md). 
 
 ### May I help?
 Sure! We accept any suggestions and bug fixes, and we will place your name
