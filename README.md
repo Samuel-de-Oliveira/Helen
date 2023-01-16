@@ -22,8 +22,8 @@ Please chose a tutorial language to start:
 - [English:us:](Tutorial/README.md);
 - [Français:fr:](Tutorial/LIT-MOI.md);
 - [Português (Brasil):brazil:](Tutorial/LEIA-ME-br.md);
-- [Mandarin (China)🇨🇳](Tutorial/自述文件.md);
-- [Hanguk (South-Korean)🇰🇷](Tutorial/읽어보기.md). 
+- [中文 (中国):cn:](Tutorial/自述文件.md);
+- [Hanguk (South-Korean):kr:](Tutorial/읽어보기.md). 
 
 ### May I help?
 Sure! We accept any suggestions and bug fixes, and we will place your name
