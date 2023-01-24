@@ -14,7 +14,7 @@ Caso esteja pensando em criar o projeto do zero (Você quer pesquisar os materia
 Basta clicar no projeto desejado e você será direcionado ao tutorial de construção do mesmo.
 
 ##### Para Arduino UNO/Nano
-- [Helen Single HC-SR04](/Helen_Single_HC-SR04/LEIA-ME-br.md);
+- [Helen Single HC-SR04](/Helen_Single_HC-SR04/Tutorial/LEIA-ME-br.md);
 - [Helen Single HC-SR05](/Helen_Single_HC-SR05/LEIA-ME-br.md).
 
 > <small>Mais Versões sairão em breve</small>
