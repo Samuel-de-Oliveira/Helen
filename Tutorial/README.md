@@ -14,7 +14,7 @@ If you'd like to make the project from scratch (You'd like to search all the mat
 Just click on the project you'd like to build and you'll be redirected to the tutorial of it.
 
 ##### For Arduino UNO/Nano
-- [Helen Single HC-SR04](/Helen_Single_HC-SR04/README.md);
+- [Helen Single HC-SR04](/Helen_Single_HC-SR04/Tutorial/README.md);
 - [Helen Single HC-SR05](/Helen_Single_HC-SR05/README.md).
 
 > <small> More versions will come soon </small>
