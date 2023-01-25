@@ -25,7 +25,7 @@
 
 Abaixo temos a imagem do esquema feito no tinkercad, logo basta segui-lo como está.
 
-<img src="https://www.redbytes.in/wp-content/uploads/2018/04/arduino-1-logo-png-transparent.png">
+<img src="Single_HC-SR04-Image.png">
 
 > :information_source: Se você deseja utilizar o capacitor basta colocalo entre as porta `9` e o `gnd` do arduino e o terminal negativo e positivo do buzzer.
 
