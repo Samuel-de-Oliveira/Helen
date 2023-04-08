@@ -44,5 +44,5 @@ about this:smiley:).
 * [ ] Test the single HC-SR04 project with blind people.
 * [ ] Test the single HC-SR04 project with deaf blind people.
 
-###### Created by: Samuel de Oliveira (2022).
-###### Contributors: Nemonet.
+###### Created by: @Samuel-de-Oliveira (2022).
+###### Contributors: @Nemonet.
