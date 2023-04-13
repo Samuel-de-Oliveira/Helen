@@ -1,4 +1,4 @@
-> :warning: :warning: :warning: This project is Freezed until I have enough time to finish it. Every information here isn't done or non-complete and I'm (Samuel, owner of project) not accepting pull requests, thanks for your compreention.
+> :warning: :warning: :warning: **This project is *freezed* until I have enough time to finish it. Every information here isn't done or non-complete and I'm (Samuel, owner of project) not accepting pull requests for now, thanks for your compreention.**
 
 ---
 
