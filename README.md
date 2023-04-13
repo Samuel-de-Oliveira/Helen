@@ -1,3 +1,9 @@
+> :warning: :warning: :warning: This project is Freezed until I have enough time to finish it. Every information here isn't done or non-complete and I'm (Samuel, owner of project) not accepting pull requests, thanks for your compreention.
+
+---
+
+---
+
 # The Helen project
 ### What is it?
 The Helen project is equipment that helps people with vision
