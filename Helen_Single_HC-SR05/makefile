@@ -1,9 +1,8 @@
-# Arduino's makefile
-# Check https://github.com/Sudar/Arduino-Makefile for more info.
+# Makefile arduino-cli
+BOARD = /dev/ttyACM0
+CORE  = arduino:avr:uno
 
-ARDUINO_DIR    = /usr/share/arduino/
-MONITOR_PORT   = /dev/ttyACM0
-USER_LIB_PATH  = /home/$(USER)/Arduino/libraries
-BOARD_TAG      = uno
-
-include /usr/share/arduino/Arduino.mk
+all:
+	sudo chmod 777 $(BOARD)
+	arduino-cli compile --fqbn $(CORE) .
+	arduino-cli upload -p $(BOARD) --fqbn $(CORE) .
