@@ -1,4 +1,3 @@
-# Makefile arduino-cli
 BOARD = /dev/ttyACM0
 CORE  = arduino:avr:uno
 
