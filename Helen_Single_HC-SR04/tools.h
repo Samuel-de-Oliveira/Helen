@@ -1,9 +1,9 @@
 /*   -*- Tools -*-
  *  
- * Code of all tools here.
+ * This is the code of the tools,
+ * only things that dont make great
+ * changes in the project, enjoy it.
  *
- * Version: 1.0
- * 
  */
 
 

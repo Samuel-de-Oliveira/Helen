@@ -8,14 +8,13 @@
  * you are free to edit anything in this code.
  *
  * Warning: If you want to change something in
- * the code, please read the comments to avoid
- * errors.
+ * the code, please read the comments carefully
+ * to avoid unwanted errors.
  *
  * Repository:    https://github.com/Samuel-de-Oliveira/Helen
  * License:       MIT
  * Created by:    Samuel de Oliveira (Github: Samuel-de-Oliveira)
  * Contribuitors: Nobody
- * Version:       1.0
  *
  */
 
@@ -31,6 +30,10 @@
 /* * ------------------ * */
 
 /*   -*- Pins -*-
+ * 
+ * We don't recommend you change them, but if it's
+ * required you can change anyway.
+ *
 /* * -------------------- * */
 const char triggerPin   {6};
 const char echoPin      {5};
@@ -40,7 +43,7 @@ const char buzzerPin    {9};
 
 /*   -*- Constants -*-
  *    
- * This is all the constants you can change.
+ * This is all the constants that you can change.
  * Change based in your needs.
  * 
  * For more info about these constants:
@@ -84,8 +87,8 @@ void setup() {
    *
   /* * ------------------------------------------------------------------------------------- * */
   Serial.begin(9600);
-  Serial.println("The monitor serial is only to see if the components is working correctly");
-  Serial.println("else this don't have anything more to see here.");
+  Serial.println("The monitor serial is only to see if the components is working correctly.");
+  Serial.println("Or else don't have anything more to look at here.");
   delay(1000);
   /* * ------------------------------------------------------------------------------------- * */
   
@@ -106,14 +109,15 @@ void loop() {
     /*   -*- Show the error messase -*-
      *    
      * If the sensor is not working or is
-     * disconnected this message will be showed.   
+     * disconnected this message will be showed with a
+     * buzzer sound.   
      *
     /* * ---------------------------------------------------------------------------- * */
     Serial.println("Oh no, something went wrong!");
     Serial.println("Please check this link: https://github.com/Samuel-de-Oliveira/Helen");
     Serial.println("For more info about this error.");
     
-    warningBeep(buzzerPin, vibrationPin);
+    warningBeep(buzzerPin, vibrationPin); // The beep
     /* * ---------------------------------------------------------------------------- * */
     
   } else if ( Sensor.read(Measure) <= nearDistance ) {
@@ -144,5 +148,7 @@ void loop() {
     /* * ------------------------------------------- * */
     
   }
+
+ // The End
 
 }

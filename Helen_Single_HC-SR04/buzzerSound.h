@@ -3,9 +3,11 @@
  * Code of all beep sounds here. If
  * you want to change the sound you
  * are free to do this.
- * 
- * Version: 1.0
  *
+ * Warning: the "vibrationPin" argument
+ * is for the vibration module/motor on
+ * case of the user is a deaf blind person
+ * 
  */
 
 
