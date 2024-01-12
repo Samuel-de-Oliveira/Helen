@@ -42,7 +42,7 @@ You can give suggestions on the [Discussions](https://github.com/Samuel-de-Olive
 
 ### What do we want for the future?
 This place is for our projects for the future (Sometimes you can help us
-about this:smiley:).
+about this 😃).
 
 ##### **Done**
 * [x] Have contributors. **12/11/2022**
